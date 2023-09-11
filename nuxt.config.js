@@ -32,7 +32,7 @@ export default {
   /*
    ** Nuxt.js dev-modules
    */
-  buildModules: [],
+  buildModules: ["@nuxtjs/composition-api/module", "@nuxtjs/svg"],
   /*
    ** Nuxt.js modules
    */
