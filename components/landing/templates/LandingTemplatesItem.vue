@@ -24,7 +24,7 @@
         <!-- see template -->
         <base-btn
           variant="text"
-          small
+          size="small"
           color="light"
           append-icon="arrow-left-solid"
           >مشاهده قالب</base-btn

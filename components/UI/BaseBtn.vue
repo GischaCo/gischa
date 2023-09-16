@@ -42,9 +42,19 @@ const props = defineProps({
     type: String,
     default: null,
   },
-  large: {
+  size: {
     type: Boolean,
-    default: false,
+    default: "default",
+    validator(value) {
+      return ["small", "default", "large"].includes(value);
+    },
+  },
+  color: {
+    type: String,
+    default: "primary",
+    validator(value) {
+      return ["primary", "secondary", "light", "dark"].includes(value);
+    },
   },
   variant: {
     type: String,
@@ -73,19 +83,22 @@ const btnType = computed(() => {
 const btnSize = computed(() => {
   const style = {
     default: "px-4 py-2 gap-2",
+    small: "px-2 py-1.5 gap-1 text-sm",
     large: "px-8 py-3 gap-3 text-lg",
   };
-  return props.large ? style.large : style.default;
+  return style[props.size];
 });
 const btnStyle = computed(() => {
   const style = {
-    text: "text-primary",
-    flat: "text-light bg-primary", //default
-    outlined: "text-primary border-2 border-primary",
+    text: `text-${props.color}`,
+    flat: `text-light bg-${props.color}`, //default
+    outlined: `text-${props.color} border-2 border-${props.color}`,
   };
   return style[props.variant];
 });
 const iconStyle = computed(() => {
-  return props.variant === "flat" ? "w-3 fill-light" : "w-3 fill-primary";
+  return props.variant === "flat"
+    ? "w-3 fill-light"
+    : `w-3 fill-${props.color}`;
 });
 </script>
