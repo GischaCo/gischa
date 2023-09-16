@@ -5,7 +5,7 @@
       @click="togglePanelMenu"
       name="user-solid"
       id="header-panel-icon"
-      class="w-4 h-4 fill-purple-800 cursor-pointer"
+      class="w-4 h-4 fill-primary cursor-pointer"
     ></base-icon>
 
     <!-- menu -->

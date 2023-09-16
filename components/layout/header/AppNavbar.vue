@@ -1,7 +1,7 @@
 <template>
   <div>
     <nav class="flex items-center justify-center gap-2">
-      <span v-for="link in navLinks" :key="link.title"
+      <span v-for="link in navLinks" :key="link.title" class="text-primary"
         ><nuxt-link :to="link.url">{{ link.titleFa }}</nuxt-link></span
       >
     </nav>

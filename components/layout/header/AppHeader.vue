@@ -4,10 +4,10 @@
     <div class="flex items-center justify-start gap-2">
       <!-- logo -->
       <nuxt-link to="/">
-        <logo class="w-10"></logo>
+        <logo class="w-9"></logo>
       </nuxt-link>
       <!-- title -->
-      <h1 class="text-xl -mb-2 font-extrabold text-purple-800">گیشا</h1>
+      <h1 class="text-xl -mb-2 font-bold text-primary">گیشا</h1>
     </div>
 
     <!-- navbar -->
