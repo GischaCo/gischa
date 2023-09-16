@@ -6,7 +6,7 @@
     </h2>
 
     <!-- blogs -->
-    <div class="w-full hidden items-center justify-center gap-6 py-8">
+    <div class="w-full flex items-center justify-center gap-6 py-8">
       <landing-blogs-item
         v-for="(blog, i) in recentBlogs"
         :key="i"
