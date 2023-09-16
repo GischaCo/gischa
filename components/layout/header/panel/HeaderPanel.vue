@@ -26,7 +26,7 @@ export default {
 import { ref } from "@nuxtjs/composition-api";
 
 // variables
-const menuOpened = ref(true);
+const menuOpened = ref(false);
 
 // methods
 const togglePanelMenu = () => {

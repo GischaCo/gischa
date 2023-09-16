@@ -1,5 +1,5 @@
 <template>
-  <div class="w-screen bg-light">
+  <div class="relative w-screen">
     <app-header></app-header>
     <main></main>
     <nuxt />
