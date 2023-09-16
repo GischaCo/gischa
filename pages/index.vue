@@ -1,12 +1,3 @@
 <template>
-  <div>test</div>
+  <app-landing></app-landing>
 </template>
-
-<script>
-import logo from "../components/Logo.vue";
-export default {
-  components: {
-    logo,
-  },
-};
-</script>

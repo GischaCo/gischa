@@ -1,16 +1,18 @@
 <template>
   <header
-    class="fixed top-0 w-full h-14 px-6 flex items-center justify-between bg-light"
+    class="fixed top-0 w-full h-14 px-6 flex items-center justify-between bg-light overflow-visible"
   >
     <!-- info -->
-    <div class="flex items-center justify-start gap-2">
-      <!-- logo -->
-      <nuxt-link to="/">
+    <nuxt-link to="/">
+      <div
+        class="flex items-center justify-start gap-2 hover:scale-105 transition-all"
+      >
+        <!-- logo -->
         <logo class="w-9"></logo>
-      </nuxt-link>
-      <!-- title -->
-      <h1 class="text-xl -mb-2 font-bold text-primary">گیشا</h1>
-    </div>
+        <!-- title -->
+        <h1 class="text-xl -mb-2 font-bold text-primary">گیشا</h1>
+      </div>
+    </nuxt-link>
 
     <!-- navbar -->
     <app-navbar></app-navbar>

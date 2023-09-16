@@ -1,7 +1,7 @@
 <template>
   <div
     id="header-panel-menu"
-    class="absolute top-6 w-64 p-2 bg-white rounded-xl shadow-xl"
+    class="absolute top-6 w-64 p-2 bg-white rounded-xl shadow-xl z-40"
   >
     <!-- profile item -->
     <header-panel-menu-item icon="user-solid" to="/panel">

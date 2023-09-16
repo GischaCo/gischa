@@ -1,11 +1,11 @@
 <template>
-  <div class="relative flex items-center justify-end gap-2">
+  <div class="relative flex items-center justify-end gap-2 z-40">
     <!-- icon -->
     <base-icon
       @click="togglePanelMenu"
       name="user-solid"
       id="header-panel-icon"
-      class="w-4 h-4 fill-primary cursor-pointer"
+      class="w-4 h-4 fill-primary hover:fill-secondary transition-all cursor-pointer"
     ></base-icon>
 
     <!-- menu -->

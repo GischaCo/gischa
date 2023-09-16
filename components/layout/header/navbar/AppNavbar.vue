@@ -1,7 +1,10 @@
 <template>
   <div>
-    <nav class="flex items-center justify-center gap-2">
-      <span v-for="link in navLinks" :key="link.title" class="text-primary"
+    <nav class="flex items-center justify-center gap-4">
+      <span
+        v-for="link in navLinks"
+        :key="link.title"
+        class="text-primary hover:text-secondary transition-all"
         ><nuxt-link :to="link.url">{{ link.titleFa }}</nuxt-link></span
       >
     </nav>
