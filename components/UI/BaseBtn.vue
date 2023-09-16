@@ -43,7 +43,7 @@ const props = defineProps({
     default: null,
   },
   size: {
-    type: Boolean,
+    type: String,
     default: "default",
     validator(value) {
       return ["small", "default", "large"].includes(value);
