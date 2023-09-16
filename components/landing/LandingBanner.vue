@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="w-full">
     <div class="bg-light flex items-center justify-around">
       <!-- logo -->
       <logo class="w-96 opacity-80"></logo>

@@ -1,5 +1,5 @@
 <template>
-  <section class="w-full flex flex-col items-center justify-start gap-8">
+  <section class="w-full flex flex-col items-center justify-start gap-4">
     <!-- title -->
     <h2 class="text-2xl font-bold text-primary text-center">
       آخرین مقالات بلاگ
