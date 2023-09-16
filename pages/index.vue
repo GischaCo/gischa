@@ -1,10 +1,9 @@
 <template>
-  <div
-    class="w-screen h-screen flex flex-col items-center justify-center gap-12"
-  >
-    <logo></logo>
-    <h1 class="text-purple-800 text-5xl font-bold">Gischa | گیشا</h1>
-  </div>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum praesentium
+    asperiores consequuntur. Iure iste vero praesentium rem illum, natus
+    necessitatibus!
+  </p>
 </template>
 
 <script>

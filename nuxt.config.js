@@ -26,6 +26,15 @@ export default {
    */
   css: ["@/assets/css/main.css"],
   /*
+   ** auto import & register components
+   */
+  components: [
+    {
+      path: "~/components",
+      pathPrefix: false,
+    },
+  ],
+  /*
    ** Plugins to load before mounting the App
    */
   plugins: [],
