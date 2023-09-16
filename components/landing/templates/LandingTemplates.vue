@@ -9,43 +9,12 @@
 
     <!-- templates -->
     <div class="w-full flex items-center justify-center gap-8">
-      <nuxt-link
-        :to="template.path"
-        :key="i"
+      <landing-templates-item
         v-for="(template, i) in newestTemplates"
+        :key="i"
+        :template="template"
       >
-        <div
-          class="relative w-72 h-[17rem] p-1.5 bg-gradient-to-tr from-primary to-secondary rounded-2xl flex flex-col items-start justify-start gap-2 overflow-hidden"
-        >
-          <!-- image -->
-          <img :src="template.img" :alt="template.title" class="rounded-t-xl" />
-
-          <!-- absolute -->
-          <div
-            class="absolute -bottom-10 -right-4 w-[110%] h-2/3 bg-gradient-to-tr from-primary to-purple-400 rounded-3xl -rotate-12 z-10"
-          ></div>
-
-          <!-- details -->
-          <div
-            class="absolute bottom-2 right-0 w-full px-4 flex flex-col items-start justify-start gap-1 z-20"
-          >
-            <!-- title -->
-            <h3 class="text-lg font-bold text-light">{{ template.title }}</h3>
-
-            <!-- description -->
-            <p class="text-light">{{ template.description }}</p>
-
-            <!-- see template -->
-            <base-btn
-              variant="text"
-              small
-              color="light"
-              append-icon="arrow-left-solid"
-              >مشاهده قالب</base-btn
-            >
-          </div>
-        </div>
-      </nuxt-link>
+      </landing-templates-item>
     </div>
 
     <!-- see more -->
