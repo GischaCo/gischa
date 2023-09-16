@@ -1,8 +1,9 @@
 <template>
-  <section class="relative w-full">
-    <div class="h-[48vh] bg-light flex items-center justify-around">
+  <section>
+    <div class="bg-light flex items-center justify-around">
       <!-- logo -->
       <logo class="w-96 opacity-80"></logo>
+
       <!-- typed.js performance -->
       <div class="w-2/6">
         <vue-typed-js :strings="sentences" :loop="true">

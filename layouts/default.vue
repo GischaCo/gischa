@@ -1,5 +1,5 @@
 <template>
-  <div class="relative w-screen">
+  <div class="relative">
     <app-header class="z-50"></app-header>
     <main class="mt-14 z-10">
       <nuxt />

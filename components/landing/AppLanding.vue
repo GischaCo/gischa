@@ -1,6 +1,10 @@
 <template>
-  <article class="w-full">
-    <landing-banner class="w-full"></landing-banner>
+  <article>
+    <!-- top banner -->
+    <landing-banner></landing-banner>
+
+    <!-- recent blogs -->
+    <landing-blogs class="-mt-28"></landing-blogs>
   </article>
 </template>
 
