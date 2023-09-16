@@ -14,7 +14,7 @@
     <app-navbar></app-navbar>
 
     <!-- other -->
-    <header-panel-icon></header-panel-icon>
+    <header-panel></header-panel>
   </header>
 </template>
 
