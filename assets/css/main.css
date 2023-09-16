@@ -2,8 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: peyda;
+  src: url("../font/peyda/PeydaWebFaNum-Regular.woff");
+  font-weight: normal;
+}
+@font-face {
+  font-family: peyda;
+  src: url("../font/peyda/PeydaWebFaNum-Bold.woff");
+  font-weight: bold;
+}
+
 @layer base {
   html {
     direction: rtl;
+  }
+  body {
+    font-family: peyda;
   }
 }
