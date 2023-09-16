@@ -1,9 +1,12 @@
 <template>
-  <section>
+  <section class="w-full flex flex-col items-center justify-start gap-8">
+    <!-- title -->
     <h2 class="text-2xl font-bold text-primary text-center">
       آخرین مقالات بلاگ
     </h2>
-    <div class="w-full flex items-center justify-center gap-6 py-8">
+
+    <!-- blogs -->
+    <div class="w-full hidden items-center justify-center gap-6 py-8">
       <landing-blogs-item
         v-for="(blog, i) in recentBlogs"
         :key="i"
@@ -12,10 +15,12 @@
     </div>
 
     <!-- see more -->
-    <a href="blog.gischa.ir" class="block text-center mb-8">مشاهده بیشتر</a>
+    <base-btn to="/blog" append-icon="arrow-left-solid" variant="text"
+      >مشاهده بیشتر</base-btn
+    >
   </section>
 </template>
-Socket.io چیست و چه کاربردی دارد؟ + پروژه عملی
+
 <script>
 export default {
   name: "LandingBlogs",
