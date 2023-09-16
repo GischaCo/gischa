@@ -14,7 +14,7 @@
     <app-navbar></app-navbar>
 
     <!-- other -->
-    <img src="@/assets/svg/user-regular.svg" class="w-4" alt="user icon" />
+    <header-panel-icon></header-panel-icon>
   </header>
 </template>
 
