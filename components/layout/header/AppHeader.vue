@@ -1,5 +1,7 @@
 <template>
-  <header class="w-full px-6 py-2 flex items-center justify-between">
+  <header
+    class="fixed top-0 w-full h-14 px-6 flex items-center justify-between bg-light"
+  >
     <!-- info -->
     <div class="flex items-center justify-start gap-2">
       <!-- logo -->
