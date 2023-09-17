@@ -11,6 +11,9 @@
 
     <!-- popular podcasts -->
     <landing-podcasts></landing-podcasts>
+
+    <!-- special apps -->
+    <landing-apps></landing-apps>
   </article>
 </template>
 

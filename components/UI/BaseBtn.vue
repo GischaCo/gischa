@@ -91,7 +91,9 @@ const btnSize = computed(() => {
 const btnStyle = computed(() => {
   const style = {
     text: `text-${props.color}`,
-    flat: `text-light bg-${props.color}`, //default
+    flat: `text-${props.color === "light" ? "primary" : "light"} bg-${
+      props.color
+    }`, //default
     outlined: `text-${props.color} border-2 border-${props.color}`,
   };
   return style[props.variant];
