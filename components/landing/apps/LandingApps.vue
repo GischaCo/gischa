@@ -1,5 +1,5 @@
 <template>
-  <section class="w-full flex flex-col items-center justify-start gap-4 py-12">
+  <section class="w-full flex flex-col items-center justify-start gap-4 py-10">
     <!-- title -->
     <h2 class="text-2xl font-bold text-primary text-center">برنامه‌های ویژه</h2>
 

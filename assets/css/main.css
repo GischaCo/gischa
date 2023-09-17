@@ -19,6 +19,7 @@
   }
   body {
     font-family: peyda;
+    user-select: none;
   }
   body {
     padding: 0;
@@ -30,5 +31,11 @@
   }
   ::-webkit-scrollbar-thumb {
     @apply bg-primary rounded-full;
+  }
+  button,
+  input,
+  button:focus,
+  input:focus {
+    @apply outline-none;
   }
 }

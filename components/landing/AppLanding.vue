@@ -9,11 +9,11 @@
     <!-- newest template -->
     <landing-templates></landing-templates>
 
-    <!-- popular podcasts -->
-    <landing-podcasts></landing-podcasts>
-
     <!-- special apps -->
     <landing-apps></landing-apps>
+
+    <!-- popular podcasts -->
+    <landing-podcasts></landing-podcasts>
   </article>
 </template>
 
