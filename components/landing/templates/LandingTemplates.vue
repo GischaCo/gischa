@@ -1,6 +1,6 @@
 <template>
   <section
-    class="w-full bg-light flex flex-col items-center justify-start gap-4 py-10"
+    class="w-full bg-light flex flex-col items-center justify-start gap-6 py-10"
   >
     <!-- title -->
     <h2 class="text-2xl font-bold text-primary text-center">
@@ -39,13 +39,13 @@ const newestTemplates = ref([
     path: "/temps/sdcspd0vinsdfcolk",
     title: "بنفشه",
     description:
-      "پشتیبانی از زبان فارسی، راست‌چین، قابلیت سفارشی‌سازی و دو زبانه شدن",
+      "پشتیبانی از زبان فارسی، راست‌چین، قابلیت شخصی‌سازی و دو زبانه شدن",
     img: require("@/assets/img/template-placeholder.jpg"),
   },
   {
     path: "/temps/smcd4sodkvanssdsd",
     title: "Aria 12",
-    description: "انگلیسی، قابلیت سفارشی‌سازی و چند زبانه شدن",
+    description: "انگلیسی، قابلیت شخصی‌سازی و چند زبانه شدن",
     img: require("@/assets/img/template-placeholder.jpg"),
   },
   {

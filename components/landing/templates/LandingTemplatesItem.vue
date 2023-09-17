@@ -1,7 +1,7 @@
 <template>
   <nuxt-link :to="template.path">
     <div
-      class="relative w-72 h-[17rem] p-1.5 bg-gradient-to-tr from-primary to-secondary rounded-2xl flex flex-col items-start justify-start gap-2 shadow-xl shadow-primary/20 hover:shadow-primary/40 overflow-hidden hover:scale-[1.02] transition-all"
+      class="relative w-72 h-[17rem] p-1.5 bg-gradient-to-tr from-primary to-secondary rounded-2xl flex flex-col items-start justify-start gap-2 shadow-xl shadow-primary/20 hover:shadow-primary/40 overflow-hidden hover:-translate-y-1 transition-all duration-300"
     >
       <!-- image -->
       <img :src="template.img" :alt="template.title" class="rounded-t-xl" />
