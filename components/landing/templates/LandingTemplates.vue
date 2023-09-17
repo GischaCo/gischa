@@ -1,6 +1,6 @@
 <template>
   <section
-    class="w-full bg-light flex flex-col items-center justify-start gap-6 py-10"
+    class="w-full bg-light flex flex-col items-center justify-start gap-10 py-14"
   >
     <!-- title -->
     <h2 class="text-2xl font-bold text-primary text-center">

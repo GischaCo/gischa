@@ -8,6 +8,9 @@
 
     <!-- newest template -->
     <landing-templates></landing-templates>
+
+    <!-- popular podcasts -->
+    <landing-podcasts></landing-podcasts>
   </article>
 </template>
 
