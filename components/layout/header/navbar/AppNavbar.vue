@@ -25,22 +25,22 @@ const navLinks = ref([
   {
     title: "blog",
     titleFa: "بلاگ",
-    url: "blog.gischa.ir",
+    url: "/blog",
   },
   {
     title: "podcast",
     titleFa: "پادکست",
-    url: "cast.gischa.ir",
+    url: "/podcasts",
   },
   {
     title: "template",
     titleFa: "قالب‌ها",
-    url: "temps.gischa.ir",
+    url: "/templates",
   },
   {
     title: "apps",
     titleFa: "برنامه‌ها",
-    url: "apps.gischa.ir",
+    url: "/apps",
   },
   {
     title: "about",
